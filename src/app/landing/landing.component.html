@@ -1,1 +1,35 @@
-<p>landing works!</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter</title>
+        <style>
+            .apply{
+                align-content: flex-end;
+                width: 200px;
+                color: darkslateblue;
+                text-align: center;
+                align-items: center;
+                margin: auto;
+            }
+            input {
+            width: 200px;
+            height: 40px;
+            background-color:burlywood;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <form>
+    <div class="apply">
+        <h1>Twitter welcomes You</h1>
+         <tr>
+            <input type="Login" onclick="Login()" routerLink="/login" value="Login" >
+         </tr>
+         <tr>
+             <input type="Registration" onclick="Register()" routerLink="/register" value="Register">
+         </tr>
+    </div>
+   
+</form>
+</html>
+
