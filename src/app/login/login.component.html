@@ -7,7 +7,7 @@
         input {
             width: 70px;
             height: 40px;
-            background-color: blue;
+            background-color:white;
             text-align: center;
         }
 
@@ -27,6 +27,7 @@
 
 <div class="set" style="margin: 20px" >
     <form name="form1">
+        <h2>Login User</h2>
         <div class="sm-jumbortron:center-align">
             
             <tr>
@@ -50,7 +51,13 @@
             <tr> 
                 <td></td> 
                 <td>                                 
-                <input type="button" id="b1" name="Login" onclick="b1_click" style="align-items: center; width:150px;background-color:aqua " value="Login" >
+                <input type="button" id="b1" name="Login" onclick="b1_click" routerLink="/login/details"style="align-items: center; width:150px;background-color:aqua " value="Login" >
+                </td>
+            </tr>
+            <tr> 
+                <td></td> 
+                <td>                                 
+                <input type="button" id="b2" name="ForgotPassword" onclick="b2_click" routerLink="/forgot"style="align-items: center; width:150px;background-color:aqua" value="FogotPassword" >
                 </td>
             </tr>
         </div>
