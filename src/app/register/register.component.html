@@ -26,7 +26,7 @@
     <body>
         <div class="set">
             <form name="form2">
-                <h2>Register User Here</h2>
+                <h2>{{title}}</h2>
                 <div class="sm-jumbortron:center-align">
                     <tr>
                         <td>Username</td>
@@ -47,9 +47,16 @@
                        </td> 
                     </tr>
                     <tr>
-                        <td>ConfirmPassword</td>
+                        <td>NewPassword</td>
                        <td>
-                        <input  type="text" id="tb1" placeholder="Enter Password" style="width:250px;background-color:white" >
+                        <input  type="text" id="tb1" placeholder="Enter NewPassword" style="width:250px;background-color:white" >
+                       </td> 
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                       <td>
+                        <input  type="submit" id="b1" onclick="b1_click()" placeholder="Enter Password"  value="Submit"style="width:150px;background-color:aqua;" >
                        </td> 
                     </tr>
                 </div>
